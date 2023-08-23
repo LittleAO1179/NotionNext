@@ -48,9 +48,10 @@ const BLOG = {
     ],
     // 无衬线字体 例如'"LXGW WenKai"'
     FONT_SANS: [
-        // '"LXGW WenKai"',
+        // 无衬线字体 例如'LXGW WenKai'
         'Bitter',
         '"PingFang SC"',
+        '-apple-system',
         'BlinkMacSystemFont',
         '"Hiragino Sans GB"',
         '"Segoe UI Emoji"',
@@ -58,6 +59,7 @@ const BLOG = {
         '"Segoe UI"',
         '"Noto Sans SC"',
         'HarmonyOS_Regular',
+        '"Microsoft YaHei"',
         '"Helvetica Neue"',
         'Helvetica',
         '"Source Han Sans SC"',
@@ -65,9 +67,8 @@ const BLOG = {
         'sans-serif',
         '"Apple Color Emoji"'
     ],
-    // 衬线字体 例如'"LXGW WenKai"'
     FONT_SERIF: [
-        // '"LXGW WenKai"',
+        // 衬线字体 例如'LXGW WenKai'
         'Bitter',
         '"Noto Serif SC"',
         'SimSun',
@@ -78,7 +79,7 @@ const BLOG = {
         '"Segoe UI Symbol"',
         '"Apple Color Emoji"'
     ],
-    FONT_AWESOME: process.env.NEXT_PUBLIC_FONT_AWESOME_PATH || 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css', // font-awesome 字体图标地址; 可选 /css/all.min.css ， https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/font-awesome/6.0.0/css/all.min.css
+    FONT_AWESOME: '/css/all.min.css', // font-awesome 字体图标地址
 
     // END ************网站字体*****************
     CAN_COPY: process.env.NEXT_PUBLIC_CAN_COPY || true, // 是否允许复制页面内容 默认允许，如果设置为false、则全栈禁止复制内容。
