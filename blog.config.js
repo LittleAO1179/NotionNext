@@ -51,7 +51,6 @@ const BLOG = {
         // 无衬线字体 例如'LXGW WenKai'
         'Bitter',
         '"PingFang SC"',
-        '-apple-system',
         'BlinkMacSystemFont',
         '"Hiragino Sans GB"',
         '"Segoe UI Emoji"',
@@ -98,7 +97,7 @@ const BLOG = {
     FACEBOOK_PAGE_ID: process.env.NEXT_PUBLIC_FACEBOOK_PAGE_ID || '', // Facebook Page ID 來啟用 messenger 聊天功能
     FACEBOOK_APP_ID: process.env.NEXT_PUBLIC_FACEBOOK_APP_ID || '', // Facebook App ID 來啟用 messenger 聊天功能 获取: https://developers.facebook.com/
 
-    BEI_AN: process.env.NEXT_PUBLIC_BEI_AN || '京ICP备2023003385号-1', // 备案号 闽ICP备XXXXXXX
+    BEI_AN: process.env.NEXT_PUBLIC_BEI_AN || '', // 备案号 闽ICP备XXXXXXX
 
     // START********代码相关********
     // PrismJs 代码相关
@@ -177,9 +176,9 @@ const BLOG = {
 
     //   ********挂件组件相关********
     // Chatbase 是否显示chatbase机器人 https://www.chatbase.co/
-    CHATBASE_ID: process.env.NEXT_PUBLIC_CHATBASE_ID || null,
+    CHATBASE_ID: process.env.NEXT_PUBLIC_CHATBASE_ID || 'oBsxp08dqPzslxhN1nhWL',
     // WebwhizAI 机器人 @see https://github.com/webwhiz-ai/webwhiz
-    WEB_WHIZ_ENABLED: process.env.NEXT_PUBLIC_WEB_WHIZ_ENABLED || false, // 是否显示
+    WEB_WHIZ_ENABLED: process.env.NEXT_PUBLIC_WEB_WHIZ_ENABLED || true, // 是否显示
     WEB_WHIZ_BASE_URL: process.env.NEXT_PUBLIC_WEB_WHIZ_BASE_URL || 'https://api.webwhiz.ai', // 可以自建服务器
     WEB_WHIZ_CHAT_BOT_ID: process.env.NEXT_PUBLIC_WEB_WHIZ_CHAT_BOT_ID || null, // 在后台获取ID
 
