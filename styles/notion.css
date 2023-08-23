@@ -1847,7 +1847,7 @@ svg + .notion-page-title-text {
   flex-shrink: 0;
   overflow: hidden;
   height: 32px;
-  font-size: 14px;
+  font-size: 30px;
   padding: 0;
 }
 
