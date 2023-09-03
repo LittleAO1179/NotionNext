@@ -49,6 +49,8 @@ const BLOG = {
     // 无衬线字体 例如'"LXGW WenKai"'
     FONT_SANS: [
         // '"LXGW WenKai"',
+        'Bitter',
+        '"Noto Sans SC"',
         '"PingFang SC"',
         '-apple-system',
         'BlinkMacSystemFont',
@@ -57,7 +59,6 @@ const BLOG = {
         '"Segoe UI Emoji"',
         '"Segoe UI Symbol"',
         '"Segoe UI"',
-        '"Noto Sans SC"',
         'HarmonyOS_Regular',
         '"Helvetica Neue"',
         'Helvetica',
